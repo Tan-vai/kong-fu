@@ -22,7 +22,7 @@ with st.container():
 left_column, right_column = st.columns([2, 1]) 
 
 with left_column:
-    st.header("Abou me")
+    st.header("About me")
     st.write(
     """
 I am Abu Tanim, a skilled Python programmer with a passion for security and automation. I have hands-on experience in creating and using Termux executors, developing spammers, and performing SQL injection techniques. My expertise lies in understanding and exploiting system vulnerabilities, and I’m always eager to learn new ways to improve my skills. 
