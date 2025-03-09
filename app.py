@@ -9,10 +9,7 @@ def load_lottieurl(url):
     if r.status_code !=200:
         return None
     return r.json()
- #lottie_c=load_lottieurl("https://app.lottiefiles.com/animation/93fa37f7-3af6-4a1c-8fae-b085dfc1764d")
-     
-
-
+ #lottie_c=load_lottieurl("https://app.lottiefiles.com/animation/93fa37f7-3af6-4a1c-8fae-b085dfc1764d")     
 st.title("C.E.O of DEATH CYBER ARMY")
 st.write("This is demo website for using python")
 
