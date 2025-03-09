@@ -31,7 +31,7 @@ My journey in coding and security continues to drive my ambition to explore and 
     st.write("##")
     img = Image.open("images/mrtan.jpg")
     st.write("[contact me >] (https://facebook.com/MrTan0fficial1)")
-
+    st.write("Copyright ©2025 Chottogram, Bangladesh. All rights reserved.")
     #st.image(img, use_container_width=True, caption="Abu Tanim") 
       
 
