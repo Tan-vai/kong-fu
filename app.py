@@ -1,7 +1,7 @@
 from PIL import Image
 import requests as re
-#import streamlit as st 
-from streamlit_lottie import st_lottie
+import streamlit as st 
+#from streamlit_lottie import st_lottie
 st.set_page_config(page_title="Abu Tanim", page_icon=":tada:",layout="wide")
 st.subheader("Hi, I am Abu Tanim :wave:")
 def load_lottieurl(url):
