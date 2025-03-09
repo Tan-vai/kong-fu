@@ -1,7 +1,7 @@
 from PIL import Image
 import requests as re
 import streamlit as st 
-from streamlit_lottie import st_lottie
+#from streamlit_lottie import st_lottie
 st.set_page_config(page_title="Abu Tanim", page_icon=":tada:",layout="wide")
 st.subheader("Hi, I am Abu Tanim :wave:")
 def load_lottieurl(url):
@@ -9,13 +9,13 @@ def load_lottieurl(url):
     if r.status_code !=200:
         return None
     return r.json()
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
+#lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
   
 st.title("C.E.O of DEATH CYBER ARMY")
 st.write("This is demo website for using python")
-left_column, right_column = st.columns(2)
-with left_column:
-    st_lottie(lottie_coding, height=300, key="coding")
+#left_column, right_column = st.columns(2)
+#with left_column:
+   # st_lottie(lottie_coding, height=300, key="coding")
  
 with st.container():
     st.write("---")
