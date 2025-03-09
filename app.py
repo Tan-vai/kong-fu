@@ -15,10 +15,8 @@ st.title("C.E.O of DEATH CYBER ARMY")
 st.write("This is demo website for using python")
 left_column, right_column = st.columns(2)
 with left_column:
-
-
- st_lottie(lottie_coding, height=300, key="coding")
-
+    st_lottie(lottie_coding, height=300, key="coding")
+ 
 with st.container():
     st.write("---")
 left_column, right_column = st.columns([2, 1]) 
