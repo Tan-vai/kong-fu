@@ -15,7 +15,6 @@ def load_lottieurl(url):
 
 st.title("C.E.O of DEATH CYBER ARMY")
 st.write("This is demo website for using python")
-st.write("[contact me >] (https://facebook.com/MrTan0fficial1)")
 
 with st.container():
     st.write("---")
@@ -34,6 +33,8 @@ My journey in coding and security continues to drive my ambition to explore and 
     """)
     st.write("##")
     img = Image.open("images/mrtan.jpg")
+    st.write("[contact me >] (https://facebook.com/MrTan0fficial1)")
+
     #st.image(img, use_container_width=True, caption="Abu Tanim") 
       
 
