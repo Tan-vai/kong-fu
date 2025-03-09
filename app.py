@@ -9,9 +9,15 @@ def load_lottieurl(url):
     if r.status_code !=200:
         return None
     return r.json()
- #lottie_c=load_lottieurl("https://app.lottiefiles.com/animation/93fa37f7-3af6-4a1c-8fae-b085dfc1764d")     
+lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
+  
 st.title("C.E.O of DEATH CYBER ARMY")
 st.write("This is demo website for using python")
+left_column, right_column = st.columns(2)
+with left_column:
+
+
+ st_lottie(lottie_coding, height=300, key="coding")
 
 with st.container():
     st.write("---")
